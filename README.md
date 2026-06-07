@@ -1,16 +1,74 @@
-# React + Vite
+# Dark Web Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack web application for monitoring and visualizing dark web related data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive Dashboard UI
+- React + Vite Frontend
+- Tailwind CSS Styling
+- Express.js Backend API
+- Swagger API Documentation
+- REST API Integration
+- Fast and Modern Development Setup
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
+- CORS
+- Swagger UI
+- Swagger JSDoc
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## API Documentation
+
+After starting the backend:
+
+```
+http://localhost:3000/api-docs
+```
+
+## Project Structure
+
+```
+frontend/
+backend/
+```
+
+## Future Improvements
+
+- User Authentication
+- Real-time Threat Monitoring
+- Alert Notifications
+- Data Visualization Charts
+- Threat Intelligence Integration
+
+## License
+
+MIT License
